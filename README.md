@@ -1,4 +1,4 @@
-# Straight up LAMP stack - Built with Vagrant and Puppet
+# LAMP stack - Built with Vagrant and Puppet
 
 Setting up LAMP stacks shouldn't be difficult and the aim of this repository is
 to allow developers to hit the ground running.
