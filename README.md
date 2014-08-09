@@ -10,12 +10,11 @@ to allow developers to hit the ground running.
 
 ## Instructions
 
-- Get a Vagrant base box. (The base Ubuntu [precise64](http://files.vagrantup.com/precise64.box) is a good starter).
 - Clone this repository.
 ```sh
 $ git clone https://github.com/jacobbednarz/vagrant-puppet-lamp.git
 ```
-- Change into the directory where this repository is cloned and run `vagrant up`.
+- Change into the directory where this repository is cloned and run `vagrant up`. NB: If you don't have the 'precise64' base box locally, it will be fetched for you by Vagrant.
 - Put your code inside of the `webroot` directory.
 
 And you're done. Your web server will now be available at http://localhost:8080.
