@@ -17,5 +17,5 @@ Vagrant.configure('2') do |config|
 
   # Forward guest port 80 to host port 8888 and name mapping.
   config.vm.network :forwarded_port, guest: 80, host: 8080, auto_correct: true
-  config.vm.synced_folder 'webroot/', '/vagrant/webroot/'
+  config.vm.synced_folder 'webroot/', '/vagrant/webroot/', owner: 'www-data'
 end
