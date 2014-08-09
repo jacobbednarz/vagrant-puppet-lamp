@@ -1,0 +1,12 @@
+# No need to version control Vagrant directories.
+vagrant
+.vagrant
+
+# Damn macs.
+.DS_Store
+
+# IDE and editors
+.idea
+
+# Ignore the contents of the webroot directory.
+webroot/
